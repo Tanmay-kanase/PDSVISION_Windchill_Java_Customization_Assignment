@@ -93,8 +93,6 @@ XLSX
 
 ### Screenshot 1 – Application Output
 
-Insert screenshot here.
-
 ![Application Output](./Screenshot%202026-07-07%20195050.png)
 ![Application Output](./Screenshot%202026-07-07%20195129.png)
 
