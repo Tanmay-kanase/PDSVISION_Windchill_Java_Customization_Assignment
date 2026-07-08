@@ -1,4 +1,6 @@
-# Import Data Validator
+## Section 3: File Handling and data processing
+
+## Question 8: Import Data Validator
 
 This project provides a Java utility to validate part data imported from CSV or Excel files. It processes the data row by row and outputs specific error messages for any data that violates the business rules.
 
@@ -16,6 +18,14 @@ The validation engine enforces the following constraints:
 - **Regular Expressions:** The revision column is validated using the regex `^[A-Z]$` to guarantee strict compliance.
 - **HashSets:** The valid states are stored in a `HashSet` to provide highly efficient, constant-time `O(1)` lookups.
 - **Robust Splitting:** The CSV parser uses `String.split(",", -1)` to ensure that if a row ends with empty commas, those empty values are still captured and flagged appropriately rather than throwing an `ArrayIndexOutOfBoundsException`.
+
+## Project Structure
+
+```text
+src/
+├── DataValidator.java
+├── parts.csv
+```
 
 ## Screenshots
 

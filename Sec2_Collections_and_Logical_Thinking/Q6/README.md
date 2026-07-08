@@ -1,4 +1,6 @@
-# Part Attribute Searcher
+## Section 2: Collections and Logical Thinking
+
+## Question 6: Part Attribute Searcher
 
 This repository contains a Java solution to define a complex `Part` object and search through a list of those objects based on specific attributes (Material and Lifecycle State).
 
@@ -7,6 +9,13 @@ This repository contains a Java solution to define a complex `Part` object and s
 1. **`Part` Class:** A data model representing a part with attributes: `partNumber`, `name`, `material`, `state`, and `createdBy`.
 2. **Search Methods:** \* **`searchParts()`**: Uses a traditional `for` loop to iterate through the list and conditionally add matching elements to a new result list.
    - **`searchPartsStream()`**: Uses the modern Java Stream API (`.stream().filter().collect()`) to achieve the exact same logic functionally. Both methods utilize `.equalsIgnoreCase()` to prevent case-sensitivity bugs.
+
+## Project Structure
+
+```text
+src/
+├── PartSearcher.java
+```
 
 ## Screenshots
 

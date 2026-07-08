@@ -1,8 +1,17 @@
-# BOM Structure Traversal
+## Section 2: Collections and Logical Thinking
+
+## Question 4: BOM Structure Traversal
 
 This project provides a Java implementation for building and traversing a hierarchical Bill of Materials (BOM) structure.
 
 It defines a `PartNode` tree data structure and utilizes a recursive Depth-First Search (DFS) algorithm to print the components with proper visual indentation, reflecting their level in the assembly.
+
+## Project Structure
+
+```text
+src/
+├── BOMTracersal.java
+```
 
 ## Screenshots
 

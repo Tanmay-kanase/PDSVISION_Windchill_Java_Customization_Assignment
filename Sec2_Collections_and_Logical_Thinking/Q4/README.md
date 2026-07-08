@@ -1,4 +1,6 @@
-# Duplicate Part Number Detector
+## Section 2: Collections and Logical Thinking
+
+## Question 4: Duplicate Part Number Detection
 
 This repository contains a Java solution to parse a list of part numbers and identify any duplicates.
 
@@ -12,6 +14,13 @@ This project includes two implementations:
 2. **`DuplicateDetectorStream.java`**: Uses Java 8+ Stream API for a concise, functional approach while maintaining the same underlying `HashSet` logic.
 
 Both approaches output the final duplicates using a `TreeSet` to guarantee they are printed in alphabetical order.
+
+## Project Structure
+
+```text
+src/
+├── DuplicateDetector.java
+```
 
 ## Screenshots
 
