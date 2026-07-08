@@ -1,0 +1,6 @@
+PartNumber,PartName,Revision,State
+P001,Bracket,A,RELEASED
+,Shaft,B,INWORK
+P003,Housing,A,UNDER_REVIEW
+P004,Gear,C,DRAFT
+P005,Wheel,AA,RELEASED
