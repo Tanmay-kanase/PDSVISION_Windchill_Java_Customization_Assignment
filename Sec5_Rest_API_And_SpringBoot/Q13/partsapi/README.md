@@ -57,9 +57,20 @@ partsapi/
 **Database screenshot**
 ![alt text](image-6.png)
 
+**Container Created**
+![alt text](image-7.png)
+
+**Duplicate Container**
+![alt text](image-8.png)
+
+**Region Validation**
+![alt text](image-9.png)
+
+**Valid email format**
+![alt text](image-10.png)
+
 ## Run Command
 
 ```bash
 mvn spring-boot:run
-
 ```
