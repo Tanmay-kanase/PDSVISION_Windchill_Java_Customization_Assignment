@@ -59,6 +59,10 @@ partsapi/
 **Valid email format**
 ![alt text](image-10.png)
 
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
 ## Run Command
 
 ```bash
